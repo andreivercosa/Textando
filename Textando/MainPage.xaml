@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Textando"
+             x:Class="Textando.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Insira um Texto"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               />
+        <Editor Text=" "
+               MaxLength="10"
+               IsSpellCheckEnabled="false"
+                Keyboard="Numeric"
+               
+               />
+        <Button
+            Text="Textando"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+            />
+        
+    </StackLayout>
+</ContentPage>
